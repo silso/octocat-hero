@@ -33,4 +33,6 @@ gameServer.define('my_room', MyRoom);
 app.use("/colyseus", monitor());
 
 gameServer.listen(port);
+
+app.use(express.static(__dirname + "/public"))
 console.log(`Listening on ws://localhost:${ port }`)

@@ -21,6 +21,7 @@
   "homepage": "https://github.com/silso/octocat-hero#readme",
   "dependencies": {
     "@colyseus/monitor": "^0.11.17",
+    "@colyseus/schema": "^0.5.23",
     "@colyseus/social": "^0.11.6",
     "body-parser": "^1.19.0",
     "colyseus": "^0.11.29",
